@@ -112,34 +112,3 @@ Evaluation: The final model is evaluated on the test set, and a confusion matrix
 
 [x] Question 10: MNIST Recommendations
 
-🤝 Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-📜 License
-MIT
-
-
----
-
-### **2. How to Add and Update This File**
-
-#### **Adding it to GitHub**
-1.  Go to your repository on GitHub.
-2.  Click the button **"Add file"** > **"Create new file"**.
-3.  Name the file `README.md`.
-4.  Paste the content above into the text editor.
-5.  Click **"Commit changes"** at the bottom (green button).
-
-#### **How to Update Information**
-You will need to manually edit this file after you finish your experiments to make it accurate.
-
-* **Replace Links:** Look for `https://github.com/your-username/your-repo-name.git` in the text above and replace it with your actual repository URL.
-* **Update Results:** Under the **"Results & Analysis"** section, I left placeholders like `(Update this after your run, e.g., Nadam)`. Once you finish your Wandb sweep (from Day 4), delete my placeholder text and write the actual best optimizer you found.
-    * *Example:* Change it to: `**Best Optimizer:** Nadam achieved the highest validation accuracy of 89%.`
-
-#### **How to Update Code in the Repo**
-If you change your Python code in Colab and need to update GitHub:
-1.  In Colab, go to **File** > **Save a copy in GitHub**.
-2.  It will ask for a "Commit message".
-3.  Write something descriptive like "Fixed bug in backpropagation" or "Added confusion matrix plot".
-4.  Click OK. This updates your code file (`.ipynb`) automatically. The `README.md` stays t
