@@ -18,7 +18,7 @@ The goal of this project is to classify images from the Fashion-MNIST dataset in
 * **Experiment Tracking:** Integrated with Wandb for hyperparameter sweeps and visualization.
 * **Activation Functions:** Support for ReLU, Sigmoid, and Tanh.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 You need Python 3.x and the following libraries:
@@ -29,7 +29,7 @@ You need Python 3.x and the following libraries:
 * `scikit-learn` (for confusion matrix)
 * `keras` (only for downloading the dataset)
 
-## 🏃‍♂️ How to Run
+##  How to Run
 
 ### Method: Google Colab
 1.  Open the file `Fashion_mnist_neural_net.ipynb` in Google Colab.
@@ -37,7 +37,7 @@ You need Python 3.x and the following libraries:
 3.  **Run Cells:** Execute the cells sequentially.
     * *Note:* You will be prompted to log in to your Wandb account in the first cell. Copy your API key from [wandb.ai/authorize](https://wandb.ai/authorize) when asked.
 
-## ⚙️ Usage & Configuration
+##  Usage & Configuration
 
 ### Training the Model
 To train the model with specific hyperparameters, you can modify the `train()` function call or use the Wandb sweep configuration dictionary in the notebook.
