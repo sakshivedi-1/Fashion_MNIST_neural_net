@@ -62,4 +62,12 @@ Best Optimizer: Adam
 
 Best Activation: ReLU
 
+Test accuracy: 87.82%
+
+Validation accuracy: 89.28%
+
 Evaluation: The final model is evaluated on the test set, and a confusion matrix is plotted to visualize class-wise performance.
+
+
+## Report 
+Wandb report link :- https://api.wandb.ai/links/msa24011-indian-institute-of-information-technology-lucknow/t4vry0q4
